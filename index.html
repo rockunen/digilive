@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Digilive</title>
+    <style>
+      :root {
+        --primary-blue: #1032cf;
+        --text-dark: #161e33;
+        --border-light: #d6d6d6;
+        --bg-subtle: #f1f1f8;
+        --white: #ffffff;
+      }
+
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        color: var(--text-dark);
+        line-height: 1.5;
+      }
+
+      /* Header */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.25rem 1.5rem;
+        border-bottom: 1px solid var(--border-light);
+      }
+
+      .logo {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: var(--primary-blue);
+        text-decoration: none;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+      }
+      nav a {
+        text-decoration: none;
+        color: var(--text-dark);
+        font-weight: 600;
+        font-size: 0.9rem;
+      }
+
+      /* Main Hero */
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2.25rem;
+        margin-bottom: 3rem;
+      }
+
+      /* Topic Cards */
+      .topic-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1rem;
+        justify-content: center;
+        margin-bottom: 4rem;
+      }
+
+      .topic-card {
+        border: 1px solid var(--border-light);
+        border-radius: 8px;
+        padding: 1rem;
+        text-align: center;
+        transition: border-color 0.3s;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .topic-card:hover {
+        border-color: var(--text-dark);
+      }
+      .topic-card img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+      }
+      .topic-card span {
+        display: block;
+        margin-top: 0.5rem;
+        font-weight: bold;
+      }
+
+      /* Collections Grid */
+      h2 {
+        margin-bottom: 1.5rem;
+      }
+      .collection-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+      }
+
+      .collection-card {
+        border: 1px solid var(--border-light);
+        border-radius: 12px;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+        text-align: center;
+      }
+
+      .collection-card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        transition: transform 0.3s;
+      }
+      .collection-card:hover img {
+        transform: scale(1.05);
+      }
+      .collection-card span {
+        display: block;
+        padding: 1.5rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+      }
+
+      /* Footer */
+      footer {
+        background-color: var(--bg-subtle);
+        margin-top: 5rem;
+        padding: 3rem 1.5rem;
+      }
+
+      .footer-content {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+      }
+
+      footer h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      footer ul {
+        list-style: none;
+        padding: 0;
+      }
+      footer li {
+        margin-bottom: 0.5rem;
+      }
+      footer a {
+        color: var(--text-dark);
+        text-decoration: none;
+        font-size: 0.85rem;
+      }
+      .license-text {
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 0.8rem;
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">
+        <img /><img
+          src="/home/aamanprime/digilive/src/assets/image.png"
+          alt="Digi Life"
+          style="height: 40px; vertical-align: middle"
+        />
+      </a>
+    </header>
+
+    <main id="main-content">
+      <h1>Empowering minds through knowledge</h1>
+
+      <section class="topic-grid">
+        <a href="#" class="topic-card">
+          <img
+            src="https://content.digitallibrary.io/wp-content/uploads/2023/11/math.svg"
+            alt="Math"
+          />
+          <span>Math</span>
+        </a>
+        <a href="#" class="topic-card">
+          <img
+            src="https://content.digitallibrary.io/wp-content/uploads/2023/05/library-books.svg"
+            alt="Library Books"
+          />
+          <span>Library Books</span>
+        </a>
+      </section>
+
+      <section>
+        <h2>Collections</h2>
+        <div class="collection-grid">
+          <a href="#" class="collection-card">
+            <img
+              src="https://content.digitallibrary.io/wp-content/uploads/2023/05/p-22.jpg"
+              alt="Girl Power"
+            />
+            <span>Girl Power</span>
+          </a>
+          <a href="#" class="collection-card">
+            <img
+              src="https://content.digitallibrary.io/wp-content/uploads/2023/05/lets-explore.jpg"
+              alt="Let's Explore"
+            />
+            <span>Let's explore</span>
+          </a>
+          <a href="#" class="collection-card">
+            <img
+              src="https://content.digitallibrary.io/wp-content/uploads/2023/05/Superheroes-bilde23.jpg"
+              alt="Superheroes"
+            />
+            <span>Superheroes</span>
+          </a>
+          <a href="#" class="collection-card" style="grid-column: span 3">
+            <img
+              src="https://content.digitallibrary.io/wp-content/uploads/2023/05/coverImage.jpeg"
+              alt="Animals"
+            />
+            <span>Animals</span>
+          </a>
+          <a href="#" class="collection-card">
+            <img
+              src="https://content.digitallibrary.io/wp-content/uploads/2023/05/our-planet-bilde4.jpg"
+              alt="Let's Explore"
+            />
+            <span>Our Planet</span>
+          </a>
+          <a href="#" class="collection-card">
+            <img
+              src="https://content.digitallibrary.io/wp-content/uploads/2023/05/family-and-friends-bilde3.jpg"
+              alt="Family and Friends"
+            />
+            <span>Family and Friends</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div>
+          <strong>About</strong>
+          <p>
+            Digi Life is your one-stop digital reading hub — stay updated with
+            newspapers, explore magazines, and dive into books, all in one
+            platform.
+          </p>
+        </div>
+        <div>
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              <a href="mailto:hr@digilive24.com">Email: hr@digilive24.com </a>
+            </li>
+            <li><a href="#">Address: H70 Noida Sector 63, Uttar Pradesh</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="license-text">
+        All content on this platform is released under a Creative Commons
+        license
+      </p>
+    </footer>
+  </body>
+</html>
