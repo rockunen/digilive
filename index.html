@@ -102,8 +102,18 @@
       }
       .collection-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: 1fr;
         gap: 1.5rem;
+      }
+
+      @media (min-width: 768px) {
+        .collection-grid {
+          grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        }
+
+        .collection-card--wide {
+          grid-column: 1 / -1;
+        }
       }
 
       .collection-card {
@@ -225,7 +235,7 @@
             />
             <span>Superheroes</span>
           </a>
-          <a href="#" class="collection-card" style="grid-column: span 3">
+          <a href="#" class="collection-card collection-card--wide">
             <img
               src="https://content.digitallibrary.io/wp-content/uploads/2023/05/coverImage.jpeg"
               alt="Animals"
