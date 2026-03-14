@@ -1,0 +1,256 @@
+.commission_jtpl_filter form {
+    display: flex;
+    align-items: center;
+}
+.filter_content{
+    /*display: flex;*/
+    align-items: center;
+    padding:10px
+}
+.filter_content .sale{
+    width:150px;
+    font-size:20px;
+    font-weight: 600;
+}
+.filter_content .to{
+    width:40px;
+    font-size:20px;
+    text-align:center;
+    font-weight: 600;
+}
+.filter_content input[type="date"]{
+    padding:5px !important;
+}
+.commission_jtpl_filter form input[type="submit"]{
+        line-height: 0.25 !important;
+        position: relative;
+        padding: 15px;
+        left: 20px;
+        position: relative;
+    top: 18px;
+}
+.commission_jtpl_order thead tr th{
+    background:#cd2653;
+    color:#fff;
+    padding:10px;
+}
+.commission_jtpl_order tbody tr td{
+    padding:5px;
+}
+.commission_jtpl_order tfoot tr td{
+    padding:5px;
+}
+.jam_commission_form-horizontal .control-label {
+    width: 80px;
+}
+
+
+
+/***********************************/
+
+.affiliate_2_menu{
+    /*display: flex;*/
+    padding: 10px;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .affiliate_2_menu li{
+    margin-right: 4px;
+    background: #ddd;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+  }
+  .affiliate_2_menu li .list-icon{
+    width: 15px;
+    height: 15px;
+  }
+  /*popup*/
+ .modal_pop {
+	background: #FFF;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index:3;
+    border: 2px solid #888;
+    padding-top: 20px;
+}
+.modal_pop a {
+  line-height: 1em;
+}
+.modal-bg {
+	background: #FFF;
+	zoom: 1;
+	opacity: 0.8;
+	filter: alpha(opacity=80); 
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 9;
+}
+.user_info_commission h3{
+    text-align:left;
+    margin: 0 20px;
+}
+.user_info_commission p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid #888;
+    padding: 5px;
+    border-radius: 10px;
+}
+/*.modal_backdrop{*/
+/*    position:Fixed;*/
+/*    width:100%;*/
+/*    height:100%;*/
+/*    top:0;*/
+/*    bottom:0;*/
+/*    right:0;*/
+/*    left:0;*/
+/*    margin:auto;*/
+/*    z-index:2;*/
+/*}*/
+.close_btn{
+    float: right;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    /* opacity: .2; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor:pointer;
+}
+.commission_user_info_main {
+    font-size: 18px;
+    border-top: 2px solid #888;
+    padding: 10px 0;
+    margin: 10px 0;
+    font-weight: 500;
+    line-height: 1.8;
+    border-bottom: 2px solid #888;
+}
+li#commission_table_next {
+    display: inline !important;
+}
+#commission_table_wrapper .row:nth-child(1){
+    display:none !important;
+}
+#commission_table_wrapper table thead th td{
+    padding:10px;
+}
+
+
+ .jam_commission_custom_ul {
+    text-decoration: none;
+    width: 100%;
+     }
+       .jam_commission_custom_ul li {
+        text-decoration: none;
+        display: inline-grid;
+    }
+      .jam_commission_custom_ul li:nth-child(3) {
+            position: relative;
+            top: 33px;
+            left: 10px;
+    }
+  .jam_commission_2_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: -5px;
+  }
+  .jam_commission_2_menu li{
+    margin-right: 4px;
+    background: #cd2653;;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    margin-left: 0;
+  }
+  .jam_commission_2_menu li a{
+      color:#fff;
+  }
+  .jam_commission_2_menu li .list-icon{
+    width: 15px;
+    height: 15px;
+  }
+  
+   .jam_commission_form-horizontal .form-group{
+        display: flex;
+        align-items: center;
+      }
+      .jam_commission_form-horizontal .form-group input{
+        margin: 10px 0;
+      }
+      .jam_commission_form-horizontal fieldset {
+          border: 3px solid #3396d4;
+          margin: 0 0 1.75em;
+          min-width: inherit;
+          padding: 0.875em;
+          border-radius: 5px;
+      }
+      .jam_commission_form-horizontal fieldset legend{
+        background: #3396d4;
+        color: #fff;
+        padding: 0 10px;
+        border-radius: 5px;
+      }
+      .jam_commission_form-horizontal fieldset .error-msg{
+        color: red;
+        background: #ffe1e1;
+        padding: 5px;
+        margin: 10px;
+      }
+      .jam_commission_form-horizontal fieldset .success-msg{
+        color: green;
+        background: #daf9da;
+        padding: 5px;
+        margin: 10px;
+      } 
+  .jam_commission_Employee_table thead th, .jam_commission_Employee_table tbody td, .jam_commission_Employee_table tfoot th{
+      padding:10px;
+  }
+  .jam_commission_Employee_table thead th{
+      color: #ffffff;
+      background: #cd2653;
+  }
+  .jam_commission_Employee_table {
+      margin: 10px 0 !important;
+  }
+  .jam_commission_head{
+     border-bottom: 2px solid #888;
+    padding-bottom: 10px;
+    margin: 20px 0;
+  }
+   .jam_commission_head h3{
+       margin:0 !important;
+   }
+   
+   .woocommerce .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--add_employee a:before {
+    content: "\f110";
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--list_employee a:before {
+    content: "\f110";
+}
+
+.woocommerce .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--affiliate a:before {
+    content: "\f110";
+}

